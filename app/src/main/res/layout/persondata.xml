@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/white"
+        android:text="个人管理"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white">
+
+        <TableRow
+            style="@style/person_Row"
+            android:id="@+id/binlimanage">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/文档" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/binli_manage" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <view
+
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:textColor="@color/grey"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/person_Row"
+            android:id="@+id/fuzhengdatemanage">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/导航" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/fuzheng_datemanage" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+        <TableRow>
+            <view
+
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:textColor="@color/grey"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/person_Row"
+            android:id="@+id/recoverstate">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/多人" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/recoverstate" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <view
+
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:textColor="@color/grey"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accountset"
+        android:textColor="@color/gray"
+        android:textSize="20dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white">
+
+        <TableRow
+            android:id="@+id/passwordchange"
+            style="@style/person_Row">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/云上传" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/passwordchange" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/recoverremind"
+            style="@style/person_Row">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/闹钟" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/recoverremind" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white">
+
+        <TableRow
+            style="@style/person_Row"
+            android:id="@+id/datecomplete"
+            >
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/个人资料" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:layout_width="120dp"
+                android:text="@string/datecomplete" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/remindset"
+            style="@style/person_Row">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/设置" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/remindset" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/help"
+            style="@style/person_Row">
+
+            <ImageView
+                style="@style/person_picture1"
+                android:background="@drawable/帮助" />
+
+            <TextView
+                style="@style/person_texttview"
+                android:text="@string/help" />
+
+            <ImageView
+                style="@style/person_picture2"
+                android:background="@drawable/返回" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <view
+
+                android:layout_width="wrap_content"
+                android:layout_height="0.6dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/whitesmoke"
+        android:gravity="center"
+        android:text="病例"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/whitesmoke"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="姓名"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="176dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="性别"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="80dp">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/darkgrey"
+                    android:text="女"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/darkgrey"
+                    android:text="男"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="就诊医院"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/hospital"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="年龄"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:inputType="numberDecimal"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="婚况"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/marry"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="职业"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="出生地"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/bornplace"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="民族"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/notion"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:maxLength="5"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="家庭住址"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="入院时间"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/hospital_date"
+                android:layout_width="103dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/edit_bg"
+                android:inputType="datetime"
+                android:textColor="#ff0000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:shrinkColumns="1,2">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                android:onClick="cancel1"
+                android:text="取消"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/ack"
+                android:layout_marginLeft="160dp"
+                android:background="@color/white"
+                android:onClick="ack1"
+                android:text="保存"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
