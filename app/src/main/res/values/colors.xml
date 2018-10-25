@@ -149,4 +149,6 @@
     <color name="lightbrown">#CCCC66</color>
     <color name="deeplightblue">#66FFCC</color>
     <color name="deeplightpink">#FFCCFF</color>
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#333</color>
 </resources>
