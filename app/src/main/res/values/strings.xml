@@ -9,4 +9,7 @@
     <string name="datecomplete">资料完善</string>
     <string name="remindset">提醒设置</string>
     <string name="help">帮助</string>
+    <string name="consult">咨询医生</string>
+    <string name="health">健康管理</string>
+    <string name="center">个人中心</string>
 </resources>

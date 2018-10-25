@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".IndexActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +19,25 @@
 
         <activity android:name=".GuideActivity"></activity>
 
-        <activity android:name=".MainActivity"></activity>
+        <!--<activity android:name=".MainActivity"></activity>-->
 
         <activity android:name=".LoginDailogFragment" />
+
+        <!--<activity android:name=".IndexActivity" />-->
+
+        <activity android:name=".AdvicesActivity"></activity>
+
+        <activity android:name=".AppointmentActivity"></activity>
+
+        <activity android:name=".Uploaddata"></activity>
+
+        <activity android:name=".MedicalhistoryActivity"></activity>
+
+        <activity android:name=".PersonDataActivity"></activity>
+
+        <activity android:name=".Healthmanage"></activity>
+
+        <activity android:name=".ConsultActivity"></activity>
 
     </application>
 

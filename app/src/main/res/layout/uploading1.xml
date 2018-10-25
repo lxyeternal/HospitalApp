@@ -25,7 +25,7 @@
         android:orientation="vertical">
 
         <TableRow
-            android:layout_width="wrap_content"
+            android:layout_width="336dp"
             android:layout_height="107dp"
             android:layout_marginBottom="0dp"
             android:layout_marginTop="10dp"
@@ -36,7 +36,7 @@
 
 
             <TextView
-                android:layout_width="71dp"
+                android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="7dp"
                 android:text="姓名"
