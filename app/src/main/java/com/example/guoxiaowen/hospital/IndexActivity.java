@@ -19,6 +19,8 @@ import com.example.guoxiaowen.hospital.MyViewPager;
 import java.util.ArrayList;
 import java.util.List;
 
+//主页面的文件
+
 public class IndexActivity extends AppCompatActivity implements MyViewPager.OnViewPagerTouchListener, ViewPager.OnPageChangeListener,View.OnClickListener{
 
 
@@ -28,10 +30,10 @@ public class IndexActivity extends AppCompatActivity implements MyViewPager.OnVi
 
     private static List<Integer> sPics = new ArrayList<>();
     static {
-            sPics.add(R.mipmap.pic1);
-            sPics.add(R.mipmap.pic2);
-            sPics.add(R.mipmap.pic3);
-            }
+        sPics.add(R.mipmap.pic1);
+        sPics.add(R.mipmap.pic2);
+        sPics.add(R.mipmap.pic3);
+    }
 
     private Handler mHandler;
     private boolean mIsTouch = false;
