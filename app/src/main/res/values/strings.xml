@@ -12,4 +12,12 @@
     <string name="consult">咨询医生</string>
     <string name="health">健康管理</string>
     <string name="center">个人中心</string>
+    <string name="text_editor_password">修改密码</string>
+    <string name="text_now_password">旧密码</string>
+    <string name="text_new_password">新密码</string>
+    <string name="text_password_again">再次输入密码</string>
+    <string name="text_forget_password">忘记密码</string>
+    <string name="text_email">邮箱</string>
+    <string name="text_tost_empty">输入框不能为空</string>
+    <string name="text_two_input_not_consistent">两次输入的密码不一致</string>
 </resources>

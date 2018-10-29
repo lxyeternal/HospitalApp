@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Personoption">
+        <activity android:name=".IndexActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,13 +19,15 @@
 
         <activity android:name=".GuideActivity"></activity>
 
-        <!--<activity android:name=".MainActivity"></activity>-->
+        <activity android:name=".MainActivity"></activity>
 
         <activity android:name=".LoginDailogFragment" />
 
         <!--<activity android:name=".IndexActivity" />-->
 
         <activity android:name=".AdvicesActivity"></activity>
+
+        <activity android:name=".ForgetPasswordActivity"></activity>
 
         <activity android:name=".AppointmentActivity"></activity>
 
@@ -38,6 +40,8 @@
         <activity android:name=".Healthmanage"></activity>
 
         <activity android:name=".ConsultActivity"></activity>
+
+        <activity android:name=".Personoption"></activity>
 
     </application>
 
