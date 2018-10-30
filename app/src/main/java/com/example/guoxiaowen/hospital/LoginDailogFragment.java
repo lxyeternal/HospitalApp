@@ -1,5 +1,6 @@
 package com.example.guoxiaowen.hospital;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
