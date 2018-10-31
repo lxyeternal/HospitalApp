@@ -1,7 +1,9 @@
 package com.example.guoxiaowen.hospital;
 
+
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -69,6 +71,12 @@ public class LoginDailogFragment extends DialogFragment implements View.OnClickL
                 listener.onLoginInputComplete(mUsername.getText().toString(), mPassword.getText().toString());
                 dismiss();
                 break;
+//            case R.id.login_register:
+//                Intent intent1 = new Intent();
+//                intent1.setClass(LoginDailogFragment.this,ForgetPasswordActivity.class);
+//                startActivity(intent1);
+//                LoginDailogFragment.this.finish();
+//                break;
         }
     }
 }

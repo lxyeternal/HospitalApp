@@ -18,7 +18,7 @@
 
     <style name="fuzhengdata_Row">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">107dp</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:shrinkColumns">1,2</item>
         <item name="android:layout_marginBottom">0dp</item>
         <item name="android:layout_marginTop">20dp</item>
@@ -39,9 +39,10 @@
         <item name="android:layout_height">27dp</item>
         <item name="android:layout_marginLeft">20dp</item>
         <item name="android:layout_marginRight">10dp</item>
-        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:background">@drawable/edit_bingli</item>
         <item name="android:textColor">#ff0000</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">10dp</item>
     </style>
 <!--复诊数据-->
  <!--个人设置-->
@@ -78,7 +79,7 @@
         <item name="android:layout_width">28dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginBottom">0dp</item>
-        <item name="android:layout_marginLeft">130dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12dp</item>
     </style>
@@ -171,5 +172,10 @@
             <item name="android:background">@color/border_clo</item>
         </style>
 
+    <style name="bg_line_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/border_clo</item>
+    </style>
 
 </resources>

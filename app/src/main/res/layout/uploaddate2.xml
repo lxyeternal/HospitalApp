@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/whitesmoke"
     android:orientation="vertical">
 
 
@@ -10,136 +10,135 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="58dp"
-        android:background="@color/whitesmoke"
+        android:background="@color/white"
         android:gravity="center"
         android:text="复诊数据"
         android:textColor="@color/black"
         android:textSize="24dp" />
 
-
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="565dp"
+    <LinearLayout
+        style="@style/wrap_layout"
         android:layout_marginTop="40dp"
-        android:background="@color/whitesmoke"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:background="@color/white">
 
-        <TableRow
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="565dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:orientation="vertical">
 
-            style="@style/fuzhengdata_Row">
-
-
-            <TextView
-                style="@style/fuzhengdata_textview"
-                android:text="TSH促甲状腺激素0.3-5.0ml"
-                 />
-
-            <EditText
-                android:id="@+id/TSH"
-                style="@style/fuzhengdata_editview" />
-
-        </TableRow>
-
-        <TableRow
-
-            style="@style/fuzhengdata_Row">
+            <TableRow style="@style/fuzhengdata_Row">
 
 
-            <TextView
-                style="@style/fuzhengdata_textview"
-                android:text="FT3血清游离三碘甲腺原氨酸4-10pmol/ml"
-                 />
+                <TextView
+                    style="@style/fuzhengdata_textview"
+                    android:text="TSH促甲状腺激素0.3-5.0ml" />
 
-            <EditText
-                android:id="@+id/FT3"
-                style="@style/fuzhengdata_editview" />
+                <EditText
+                    android:id="@+id/TSH"
+                    style="@style/fuzhengdata_editview"
+                    android:layout_width="120dp" />
 
+            </TableRow>
 
-        </TableRow>
+            <TableRow
 
-        <TableRow
-
-            style="@style/fuzhengdata_Row">
-
-
-            <TextView
-                style="@style/fuzhengdata_textview"
-                android:text="FT4血清游离甲状腺素2.4-15.4"
-                />
-
-            <EditText
-                android:id="@+id/FT4"
-                style="@style/fuzhengdata_editview" />
+                style="@style/fuzhengdata_Row">
 
 
-        </TableRow>
+                <TextView
+                    style="@style/fuzhengdata_textview"
+                    android:text="FT3血清游离三碘甲腺原氨酸4-10pmol/ml" />
 
-        <TableRow
-
-            style="@style/fuzhengdata_Row">
-
-
-            <TextView
-                style="@style/fuzhengdata_textview"
-                android:text="TGAb甲状腺球蛋白抗体11.5-22.7"
-                 />
-
-            <EditText
-                android:id="@+id/TGAb"
-                style="@style/fuzhengdata_editview" />
+                <EditText
+                    android:id="@+id/FT3"
+                    style="@style/fuzhengdata_editview" />
 
 
-        </TableRow>
+            </TableRow>
 
-        <TableRow
+            <TableRow
 
-            style="@style/fuzhengdata_Row">
-
-
-            <TextView
-                style="@style/fuzhengdata_textview"
-                android:text="TPOAb甲状腺过氧化物酶抗体"
-                 />
-
-            <EditText
-                android:id="@+id/TPOAb"
-                style="@style/fuzhengdata_editview" />
+                style="@style/fuzhengdata_Row">
 
 
-        </TableRow>
+                <TextView
+                    style="@style/fuzhengdata_textview"
+                    android:text="FT4血清游离甲状腺素2.4-15.4" />
 
-        <TableRow
-
-            style="@style/fuzhengdata_Row">
-
-            <Button
-                android:id="@+id/cancel"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="100dp"
-                android:background="@color/white"
-                android:onClick="cancel1"
-                android:text="取消"
-                android:gravity="center"
-                android:textColor="@color/black" />
-
-            <Button
-                android:id="@+id/ack"
-                android:layout_width="100dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="0dp"
-                android:layout_marginRight="60dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:onClick="ack1"
-                android:paddingRight="40dp"
-                android:text="保存"
-                android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/FT4"
+                    style="@style/fuzhengdata_editview" />
 
 
-        </TableRow>
+            </TableRow>
+
+            <TableRow
+
+                style="@style/fuzhengdata_Row">
 
 
-    </TableLayout>
+                <TextView
+                    style="@style/fuzhengdata_textview"
+                    android:text="TGAb甲状腺球蛋白抗体11.5-22.7" />
+
+                <EditText
+                    android:id="@+id/TGAb"
+                    style="@style/fuzhengdata_editview" />
+
+
+            </TableRow>
+
+            <TableRow
+
+                style="@style/fuzhengdata_Row">
+
+
+                <TextView
+                    style="@style/fuzhengdata_textview"
+                    android:text="TPOAb甲状腺过氧化物酶抗体" />
+
+                <EditText
+                    android:id="@+id/TPOAb"
+                    style="@style/fuzhengdata_editview" />
+
+
+            </TableRow>
+
+            <TableRow
+
+                style="@style/fuzhengdata_Row">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="100dp"
+                    android:background="@drawable/index_lineborder"
+                    android:gravity="center"
+                    android:onClick="cancel1"
+                    android:text="取消"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/ack"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/index_lineborder"
+                    android:gravity="center"
+                    android:onClick="ack1"
+                    android:text="保存"
+                    android:textColor="@color/black" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashActivity">
@@ -21,7 +21,29 @@
 
         <activity android:name=".MainActivity"></activity>
 
-        <activity android:name=".LoginDailogFragment" />
+        <activity android:name=".IndexActivity"></activity>
+
+        <activity android:name="LoginDailogFragment"></activity>
+
+        <activity android:name=".AdvicesActivity"></activity>
+
+        <activity android:name=".ForgetPasswordActivity"></activity>
+
+        <activity android:name=".AppointmentActivity"></activity>
+
+        <activity android:name=".Uploaddata"></activity>
+
+        <activity android:name=".MedicalhistoryActivity"></activity>
+
+        <activity android:name=".PersonDataActivity"></activity>
+
+        <activity android:name=".Healthmanage"></activity>
+
+        <activity android:name=".ConsultActivity"></activity>
+
+        <activity android:name=".Personoption"></activity>
+
+        <activity android:name=".RecoverActivity"></activity>
 
     </application>
 
