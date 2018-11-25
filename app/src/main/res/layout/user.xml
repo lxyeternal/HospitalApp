@@ -9,7 +9,11 @@
 
     <LinearLayout style="@style/wrap_layout" >
         <!-- 上圆角-->
-        <LinearLayout style="@style/top_layout">
+        <LinearLayout
+            android:id="@+id/medical_history_manage"
+            style="@style/top_layout"
+            android:clickable="true"
+            android:onClick="onClick">
             <TextView style="@style/usertext" android:text="病例管理" />
             <ImageView style="@style/img_arrow"/>
         </LinearLayout>
@@ -17,13 +21,21 @@
         <!-- 分割线 -->
         <View style="@style/bg_line"/>
         <!-- 无圆角-->
-        <LinearLayout style="@style/mid_layout">
+        <LinearLayout
+            android:id="@+id/subsequent_manage"
+            style="@style/mid_layout"
+            android:clickable="true"
+            android:onClick="onClick">
             <TextView style="@style/usertext" android:text="复诊数据管理" />
             <ImageView style="@style/img_arrow"/>
         </LinearLayout>
         <View style="@style/bg_line"/>
         <!-- 下圆角-->
-        <LinearLayout style="@style/bottom_layout">
+        <LinearLayout
+            style="@style/bottom_layout"
+            android:id="@+id/rocover"
+            android:clickable="true"
+            android:onClick="onClick">
             <TextView style="@style/usertext" android:text="恢复状态" />
             <ImageView style="@style/img_arrow"/>
         </LinearLayout>
@@ -35,7 +47,11 @@
 
     <!-- 全圆角-->
     <LinearLayout style="@style/wrap_layout">
-        <LinearLayout style="@style/single_layout">
+        <LinearLayout
+            style="@style/single_layout"
+            android:id="@+id/passwordchange"
+            android:clickable="true"
+            android:onClick="onClick">
             <TextView style="@style/usertext" android:text="密码更改"/>
             <ImageView style="@style/img_arrow"/>
 
@@ -50,9 +66,18 @@
 
         <LinearLayout style="@style/wrap_layout" >
             <!-- 上圆角-->
-            <LinearLayout style="@style/top_layout">
-                <TextView style="@style/usertext" android:text="资料完善" />
-                <ImageView style="@style/img_arrow"/>
+            <LinearLayout
+                style="@style/top_layout"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:id="@+id/information">
+
+                <TextView
+                    style="@style/usertext"
+                    android:layout_width="339dp"
+                    android:text="资料完善" />
+                <ImageView
+                    style="@style/img_arrow"/>
             </LinearLayout>
 
             <!-- 分割线 -->

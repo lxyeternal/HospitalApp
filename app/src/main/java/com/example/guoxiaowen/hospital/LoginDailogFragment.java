@@ -1,5 +1,6 @@
 package com.example.guoxiaowen.hospital;
 
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.graphics.Color;
@@ -65,8 +66,14 @@ public class LoginDailogFragment extends DialogFragment implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.login_btn:
-                LoginInputListener listener= (LoginInputListener) getActivity();
-                listener.onLoginInputComplete(mUsername.getText().toString(), mPassword.getText().toString());
+                LoginInputListener listener1= (LoginInputListener) getActivity();
+                listener1.onLoginInputComplete(mUsername.getText().toString(), mPassword.getText().toString().trim());
+                dismiss();
+                break;
+
+            case R.id.login_register:
+                LoginInputListener listener2= (LoginInputListener) getActivity();
+                listener2.onLoginInputComplete(mUsername.getText().toString(), mPassword.getText().toString().trim());
                 dismiss();
                 break;
         }

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:background="@color/whitesmoke">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center"
+            android:text="康复建议"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TableLayout
+            style="@style/wrap_layout"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="饮食注意"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="早餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="午餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="晚餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="其他"
+                    android:textSize="18dp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+        </TableLayout>
+
+
+
+        <TableLayout
+            style="@style/wrap_layout"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="运动健康"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="早餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="午餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="晚餐"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+            <TableRow
+                style="@style/top_layout"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:text="其他"
+                    android:textSize="18dp" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="1dp">
+
+                <View style="@style/bg_line_2" />
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
